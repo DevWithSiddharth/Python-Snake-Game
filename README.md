@@ -1,7 +1,7 @@
 # Python Snake Game
 
 <p align="center">
-  <a href="https://https://github.com/DevWithSiddharth/Python-Snake-Game">
+  <a href="https://github.com/DevWithSiddharth/Python-Snake-Game">
     <img src="assets/ee53f12c-8287-47bc-b7a4-ea0ba5052ad1.png" alt="Python Snake Game Banner" width="100%" style="border-radius: 8px;">
   </a>
 </p>
