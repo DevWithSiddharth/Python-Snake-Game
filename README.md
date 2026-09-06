@@ -32,10 +32,6 @@ Install the required dependency with:
 pip install pygame
 ```
 
----
-
-## 🎮 How to Run
-
 Clone the repository and run `main.py`:
 
 ```bash
@@ -46,21 +42,89 @@ python main.py
 
 ---
 
-## 🕹️ Controls
 
-| Key | Action |
-| :--- | :--- |
-| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> | Change Snake Direction |
-| <kbd>Esc</kbd> | Exit Game |
+
+
+
+## 🎮 How to Play
+
+### 🎯 Objective
+
+Eat the 🍎 apples to increase your score and grow the snake.
+
+Avoid:
+
+- 🧱 Map obstacles
+- 🐍 Your own body
+
+The game ends when the snake collides with an obstacle or itself.
 
 ---
 
-## 🤝 Contributing
+## ⚡ Difficulty
 
-Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
+| Difficulty | Starting Speed |
+| ---------- | -------------- |
+| 🟢 Easy    | 7 moves/sec    |
+| 🟡 Normal  | 10 moves/sec   |
+| 🔴 Hard    | 15 moves/sec   |
+
+The snake gets faster every **5 points**, up to a maximum of **25 moves/sec**.
+
+---
+
+## 🗺️ Maps
+
+| Map | Description |
+| --- | ----------- |
+| 🌿 Classic | No obstacles |
+| 🧱 Blocks | Four obstacle blocks |
+| 🏝️ Islands | Four islands with a center obstacle |
+
+---
+
+## 🕹 Controls
+
+### 🎮 Movement
+
+- ⬆️ **Up Arrow / W** → Move Up
+- ⬇️ **Down Arrow / S** → Move Down
+- ⬅️ **Left Arrow / A** → Move Left
+- ➡️ **Right Arrow / D** → Move Right
+
+### ⏸️ Game Controls
+
+- **P** → Pause / Resume
+- **M** → Return to Main Menu
+- **ESC** → Quit
+
+### 💀 Game Over
+
+- **R** → Restart
+- **M** → Main Menu
+- **ESC** → Quit
+
+### 📋 Menus
+
+- **↑ / ↓** → Select option
+- **ENTER** → Confirm
+- **ESC** → Go back
+
+---
+
+## 🏆 High Score
+
+Your best score is automatically saved in:
+
+```text
+highscore.txt
+```
 
 ---
 
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).
+
+
+<p align="center"> <b>Made with ❤️ using Pygame</b><br> <i>Eat. Grow. Survive.</i> </p>
